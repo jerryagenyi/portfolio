@@ -1,0 +1,284 @@
+{
+  "portfolio": {
+    "metadata": {
+      "name": "Jeremiah Agenyi",
+      "title": "Product Manager & Co-founder | Full Stack Developer",
+      "description": "Passionate and versatile professional at the intersection of technology, communication, and social impact. With over a decade of experience building exceptional digital experiences.",
+      "email": "jerryagenyi@gmail.com",
+      "location": "Boston, MA",
+      "website": "https://jerryagenyi.xyz"
+    },
+    "profile": {
+      "headline": "Product Manager & Co-founder || Architecting digital solutions",
+      "about": "I am a passionate and versatile professional at the intersection of technology, communication, and social impact. With over a decade of experience, I specialize in building exceptional digital experiences and leading technical teams.",
+      "expertise": [
+        "Full Stack Development",
+        "Product Management",
+        "Technical Leadership",
+        "UI/UX Engineering",
+        "Team Mentorship"
+      ]
+    },
+    "socialMedia": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/jerryagenyi",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jerryagenyi",
+        "icon": "linkedin"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/jerryagenyi",
+        "icon": "twitter"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/jerryagenyi",
+        "icon": "instagram"
+      },
+      {
+        "name": "CodePen",
+        "url": "https://codepen.io/jerryagenyi",
+        "icon": "codepen"
+      }
+    ],
+    "experience": [
+      {
+        "id": "upstatement",
+        "title": "Lead Engineer",
+        "company": "Upstatement",
+        "location": "Boston, MA",
+        "startDate": "2018-05",
+        "endDate": "present",
+        "url": "https://www.upstatement.com/",
+        "description": "Lead engineer delivering high-quality production code for diverse projects",
+        "highlights": [
+          "Deliver high-quality, robust production code for diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more",
+          "Work alongside creative directors to lead research, development, and architecture of technical solutions",
+          "Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities",
+          "Provide leadership within engineering department through collaboration, knowledge shares, and mentorship"
+        ]
+      },
+      {
+        "id": "apple",
+        "title": "UI Engineer Co-op",
+        "company": "Apple",
+        "location": "Cupertino, CA",
+        "startDate": "2017-07",
+        "endDate": "2017-12",
+        "url": "https://www.apple.com/music/",
+        "description": "UI Engineer for Apple Music",
+        "highlights": [
+          "Developed and styled interactive web applications for Apple Music using Ember and SCSS",
+          "Built and shipped the Apple Music Extension for Facebook Messenger",
+          "Architected and implemented the user interface of Apple Music's embeddable web player widget",
+          "Contributed to the creation of MusicKit JS, a public-facing JavaScript SDK"
+        ]
+      },
+      {
+        "id": "starry",
+        "title": "Software Engineer Co-op",
+        "company": "Starry",
+        "location": "Boston, MA",
+        "startDate": "2016-07",
+        "endDate": "2016-12",
+        "url": "https://starry.com/",
+        "description": "Software Engineer for Starry's customer-facing applications",
+        "highlights": [
+          "Engineered and improved major features using ES6, Handlebars, Backbone, Marionette, and CSS",
+          "Proposed and implemented scalable solutions for cloud services",
+          "Collaborated with designers and developers on iOS and Android mobile apps"
+        ]
+      },
+      {
+        "id": "scout",
+        "title": "Developer",
+        "company": "Scout Studio",
+        "location": "Northeastern University",
+        "startDate": "2016-01",
+        "endDate": "2017-05",
+        "url": "https://web.northeastern.edu/scout/",
+        "description": "Student developer on pro-bono projects",
+        "highlights": [
+          "Collaborated with student designers and engineers on pro-bono projects",
+          "Created new brands, design systems, and websites for community organizations",
+          "Built and delivered technical solutions according to stakeholder requirements"
+        ]
+      },
+      {
+        "id": "mullenlowe",
+        "title": "Creative Technologist Co-op",
+        "company": "MullenLowe",
+        "location": "Boston, MA",
+        "startDate": "2015-07",
+        "endDate": "2015-12",
+        "url": "https://us.mullenlowe.com/",
+        "description": "Creative Technologist for client websites",
+        "highlights": [
+          "Developed, maintained, and shipped production code using HTML, CSS, Sass, JavaScript, and jQuery",
+          "Performed quality assurance tests for cross-browser compatibility",
+          "Worked with clients including JetBlue, Lovesac, U.S. Cellular, and U.S. Department of Defense"
+        ]
+      }
+    ],
+    "skills": {
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "HTML",
+        "CSS",
+        "SCSS",
+        "SQL"
+      ],
+      "frameworks": [
+        "React",
+        "Next.js",
+        "Vue",
+        "Angular",
+        "Ember",
+        "Express",
+        "Node.js"
+      ],
+      "tools": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Firebase",
+        "MongoDB",
+        "MySQL",
+        "Stripe",
+        "Algolia"
+      ],
+      "design": [
+        "Figma",
+        "UI/UX Design",
+        "Responsive Design",
+        "Accessibility"
+      ]
+    },
+    "projects": [
+      {
+        "id": "spotify-profile",
+        "title": "Spotify Profile",
+        "date": "2018-12-18",
+        "description": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track.",
+        "technologies": ["React", "Express", "Styled Components", "Spotify API"],
+        "github": "https://github.com/bchiang7/spotify-profile",
+        "external": "https://spotify-profile.herokuapp.com/",
+        "featured": true
+      },
+      {
+        "id": "octoprofile",
+        "title": "OctoProfile",
+        "date": "2019-07-15",
+        "description": "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos.",
+        "technologies": ["Next.js", "Chart.js", "GitHub API"],
+        "github": "https://github.com/bchiang7/octoprofile",
+        "external": "https://octoprofile.now.sh/",
+        "featured": true
+      },
+      {
+        "id": "halcyon-theme",
+        "title": "Halcyon Theme",
+        "date": "2018-01-01",
+        "description": "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more.",
+        "technologies": ["VS Code", "Sublime Text", "Atom"],
+        "github": "https://github.com/bchiang7/halcyon-site",
+        "external": "https://halcyon-theme.netlify.com/",
+        "featured": true
+      },
+      {
+        "id": "google-keep-clone",
+        "title": "Google Keep Clone",
+        "date": "2018-12-29",
+        "description": "A simple Google Keep clone built with Vue and Firebase.",
+        "technologies": ["Vue", "Firebase"],
+        "github": "https://github.com/bchiang7/google-keep-vue-firebase",
+        "external": "https://keep-vue.netlify.com/",
+        "featured": true
+      },
+      {
+        "id": "time-to-have-more-fun",
+        "title": "Time to Have More Fun",
+        "date": "2020-01-10",
+        "description": "A single page web app for helping choose where to travel, built with Next.js, Firebase, and Tailwind CSS.",
+        "technologies": ["Next.js", "Tailwind CSS", "Firebase"],
+        "github": "https://github.com/bchiang7/time-to-have-more-fun",
+        "external": "https://time-to-have-more-fun.now.sh/",
+        "featured": true
+      }
+    ],
+    "design": {
+      "colors": {
+        "navy": "#0a192f",
+        "darkNavy": "#020c1b",
+        "green": "#64ffda",
+        "slate": "#8892b0",
+        "lightSlate": "#a8b2d1",
+        "lightestSlate": "#ccd6f6",
+        "white": "#e6f1ff"
+      },
+      "typography": {
+        "fontFamily": "Calibre, San Francisco, Segoe UI, Roboto, sans-serif",
+        "monoFont": "SF Mono, Monaco, Inconsolata, Courier New, monospace"
+      }
+    },
+    "navigation": [
+      {
+        "name": "About",
+        "url": "/#about",
+        "id": "about"
+      },
+      {
+        "name": "Experience",
+        "url": "/#jobs",
+        "id": "jobs"
+      },
+      {
+        "name": "Work",
+        "url": "/#projects",
+        "id": "projects"
+      },
+      {
+        "name": "Contact",
+        "url": "/#contact",
+        "id": "contact"
+      }
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Hi, my name is",
+        "name": "Jeremiah Agenyi",
+        "tagline": "I build things for the web.",
+        "description": "I'm a software engineer specializing in building exceptional digital experiences.",
+        "cta": "Get In Touch"
+      },
+      "about": {
+        "id": "about",
+        "title": "About",
+        "content": "I'm a passionate and versatile professional at the intersection of technology, communication, and social impact. With over a decade of experience, I specialize in building exceptional digital experiences and leading technical teams."
+      },
+      "experience": {
+        "id": "jobs",
+        "title": "Experience"
+      },
+      "projects": {
+        "id": "projects",
+        "title": "Work"
+      },
+      "contact": {
+        "id": "contact",
+        "title": "Get In Touch",
+        "description": "My inbox is always open. Feel free to get in touch!",
+        "cta": "Say Hello"
+      }
+    }
+  }
+}
+
