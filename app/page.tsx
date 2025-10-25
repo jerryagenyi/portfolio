@@ -43,7 +43,7 @@ export default function Home() {
           Jeremiah Agenyi
         </h1>
         <p style={{ fontSize: '1.2rem', color: 'var(--slate)', marginBottom: '2rem' }}>
-          Full Stack Developer | Product Manager | Building exceptional digital experiences
+          Tech Enthusiast | Product Manager | Building digital solutions for social impact
         </p>
         <p style={{ fontSize: '1rem', lineHeight: '1.6', maxWidth: '600px' }}>
           Portfolio under construction. Check back soon for my latest work, experience, and projects.

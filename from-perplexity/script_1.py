@@ -1,4 +1,8 @@
-{
+
+import json
+
+# Create the updated portfolio JSON with Jeremiah's actual information
+portfolio_data = {
   "portfolio": {
     "metadata": {
       "name": "Jeremiah Agenyi",
@@ -166,53 +170,7 @@
         "Print Design"
       ]
     },
-    "projects": [
-      {
-        "id": "project1",
-        "title": "Balance Platform",
-        "date": "2024-10-01",
-        "description": "Co-founding a platform that leverages AI and ethical automation for social impact, with focus on church management systems and public health initiatives.",
-        "technologies": [
-          "Next.js",
-          "AI",
-          "n8n",
-          "Python",
-          "WordPress"
-        ],
-        "github": "",
-        "external": "",
-        "featured": true
-      },
-      {
-        "id": "project2",
-        "title": "Social Good Nigeria",
-        "date": "2014-09-01",
-        "description": "Co-founded a networked community of innovators and socio-preneurs leveraging digital technology for social good across Nigeria.",
-        "technologies": [
-          "Community Building",
-          "Social Media",
-          "Digital Marketing"
-        ],
-        "github": "",
-        "external": "http://socialgood.ng",
-        "featured": true
-      },
-      {
-        "id": "project3",
-        "title": "Love GardenRoute Business Listing Platform",
-        "date": "2024-01-01",
-        "description": "Developed complete WordPress-powered business listing service including site installation, branding, and digital marketing.",
-        "technologies": [
-          "WordPress",
-          "PHP",
-          "JavaScript",
-          "SEO"
-        ],
-        "github": "",
-        "external": "",
-        "featured": true
-      }
-    ],
+    "projects": [],
     "design": {
       "colors": {
         "navy": "#0a192f",
@@ -256,7 +214,7 @@
         "title": "Hi, my name is",
         "name": "Jeremiah Agenyi",
         "tagline": "I build digital solutions for social impact.",
-        "description": "I'm a product manager and tech enthusiast specializing in creating technology solutions that drive meaningful change. With over a decade bridging communication, technology, and social good, I help organizations leverage digital transformation to empower communities.",
+        "description": "I'm a product manager and full-stack developer specializing in creating technology solutions that drive meaningful change. With over a decade bridging communication, technology, and social good, I help organizations leverage digital transformation to empower communities.",
         "cta": "Get In Touch"
       },
       "about": {
@@ -282,3 +240,52 @@
   }
 }
 
+# Add the projects section
+portfolio_data["portfolio"]["projects"] = [
+  {
+    "id": "project1",
+    "title": "Balance Platform",
+    "date": "2024-10-01",
+    "description": "Co-founding a platform that leverages AI and ethical automation for social impact, with focus on church management systems and public health initiatives.",
+    "technologies": ["Next.js", "AI", "n8n", "Python", "WordPress"],
+    "github": "",
+    "external": "",
+    "featured": True
+  },
+  {
+    "id": "project2",
+    "title": "Social Good Nigeria",
+    "date": "2014-09-01",
+    "description": "Co-founded a networked community of innovators and socio-preneurs leveraging digital technology for social good across Nigeria.",
+    "technologies": ["Community Building", "Social Media", "Digital Marketing"],
+    "github": "",
+    "external": "http://socialgood.ng",
+    "featured": True
+  },
+  {
+    "id": "project3",
+    "title": "Love GardenRoute Business Listing Platform",
+    "date": "2024-01-01",
+    "description": "Developed complete WordPress-powered business listing service including site installation, branding, and digital marketing.",
+    "technologies": ["WordPress", "PHP", "JavaScript", "SEO"],
+    "github": "",
+    "external": "",
+    "featured": True
+  }
+]
+
+# Convert to JSON string
+json_output = json.dumps(portfolio_data, indent=2)
+
+# Save to file
+with open('llm_updated.json', 'w', encoding='utf-8') as f:
+    f.write(json_output)
+
+print("✓ Updated llm.json file has been generated successfully!")
+print(f"\nFile Statistics:")
+print(f"- Total characters: {len(json_output):,}")
+print(f"- Experience entries: {len(portfolio_data['portfolio']['experience'])}")
+print(f"- Projects: {len(portfolio_data['portfolio']['projects'])}")
+print(f"- Skills categories: {len(portfolio_data['portfolio']['skills'])}")
+print(f"- Expertise areas: {len(portfolio_data['portfolio']['profile']['expertise'])}")
+print("\nFile saved as: llm_updated.json")
