@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build)",
+      "Bash(npm i:*)",
+      "Bash(npm audit fix:*)",
+      "Bash(NEXT_BUILD_TURBO=false npm run build:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm install:*)",
+      "WebSearch",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

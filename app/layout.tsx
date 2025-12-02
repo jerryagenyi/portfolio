@@ -13,12 +13,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jeremiah Agenyi | Full Stack Developer",
-  description: "Full stack developer specializing in building exceptional digital experiences",
+  title: "Jeremiah Agenyi | Product Manager & Digital Communications Specialist",
+  description: "Product Manager & Co-founder specializing in strategic communications, digital marketing, and building technology solutions for social impact. 12+ years experience bridging technology and social good.",
+  keywords: ["Product Manager", "Digital Marketing", "Strategic Communications", "WordPress Development", "Public Health", "Social Impact", "AI Integration", "Next.js Development"],
+  authors: [{ name: "Jeremiah Agenyi" }],
   openGraph: {
-    title: "Jeremiah Agenyi | Full Stack Developer",
-    description: "Full stack developer specializing in building exceptional digital experiences",
+    title: "Jeremiah Agenyi | Product Manager & Digital Communications Specialist",
+    description: "Product Manager & Co-founder specializing in strategic communications, digital marketing, and building technology solutions for social impact.",
     type: "website",
+    locale: "en_US",
+    url: "https://jeremyagenyi.com",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jeremiah Agenyi | Product Manager & Digital Communications Specialist",
+    description: "Product Manager & Co-founder specializing in strategic communications, digital marketing, and building technology solutions for social impact.",
+    creator: "@jerryagenyi",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
